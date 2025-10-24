@@ -29,3 +29,7 @@ python src/main.py
 - Unidad de tiempo por defecto: 3 s (configurable).
 - Resultados se muestran al final con métricas `tf, T, Te, I` (2 decimales) y promedio.
 - En RR se muestra la cola en tiempo real. Llegadas se encolan antes que reencolados por quantum.
+
+## Capturas de funcionamiento
+| ![Pantalla principal](src/img/ui_home.jpg) | Interfaz inicial con lista de procesos y controles, mostrando los nombes de los procesos, tiempo de llegada y uso de CPU |
+
