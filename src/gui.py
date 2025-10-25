@@ -326,5 +326,6 @@ class App(tk.Tk):
                 if vals and vals[0] in best:
                     self.results_tree.tag_configure("besttag", background=BEST_ROW)
                     self.results_tree.item(iid, tags=("besttag",))
-
+                    
         self.btn_reset.configure(state="normal")
+
